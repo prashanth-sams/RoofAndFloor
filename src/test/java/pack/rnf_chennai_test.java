@@ -21,7 +21,7 @@ import org.openqa.selenium.JavascriptExecutor;
 
 public class rnf_chennai_test extends SeleniumAbstractClass {
 
-/*    @Test(priority = 0, description = "Empty search [Chennai]")
+    @Test(priority = 0, description = "Empty search [Chennai]")
     public void Test01() throws Exception {
 
         WebElement search = driver.findElement(By.id("s2id_autogen1"));
@@ -394,9 +394,9 @@ public class rnf_chennai_test extends SeleniumAbstractClass {
             Assert.fail();
         }
 
-    } */
+    }
 
-/*    @Test(priority = 12, description = "Search Property with multiple search locations - Villa [Chennai]")
+    @Test(priority = 12, description = "Search Property with multiple search locations - Villa [Chennai]")
     public void Test13() throws Exception {
 
         WebElement search = driver.findElement(By.id("s2id_autogen1"));
@@ -564,7 +564,7 @@ public class rnf_chennai_test extends SeleniumAbstractClass {
             Assert.fail();
         }
 
-    }*/
+    }
 
     @Test(priority = 15, description = "1 BHK [Chennai]")
     public void Test16() throws Exception {
